@@ -1,5 +1,9 @@
 import random
+<<<<<<< HEAD
 import pyttsx3
+=======
+
+>>>>>>> 2c0395f6f0ff5ac170449f02b6141c46a20bad29
 print("Welcome to game zone!Here we present scissors,papper and rock game")
 Computer_wins=0
 You_win=0
@@ -30,9 +34,13 @@ while True:
         print("Computer Wins!")
         Computer_wins+=1
 
+<<<<<<< HEAD
 speech=pyttsx3.init()
 speech.say(f"{name} wins {You_win} times")
 speech.say(f"Computer wins{Computer_wins} times")
 speech.runAndWait()
+=======
+
+>>>>>>> 2c0395f6f0ff5ac170449f02b6141c46a20bad29
 print(f"{name} wins=",You_win)
 print("Computer wins=",Computer_wins)
